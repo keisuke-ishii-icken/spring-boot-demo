@@ -26,12 +26,16 @@ Springは強力なDI containerを有しており、リソースの管理やア�
 
 DemoApplication.javaを実行する(dev-toolsの設定をしておくと、hot reloadして開発イテレーションが増加する)
 
+localhost:18080/testにアクセスできればOK
+
 ### build(リリース時などで使用)
 
 ```
 ./gradlew build
 java -jar build/libs/demo1-0.0.1-SNAPSHOT.jar
 ```
+
+localhost:18080/testにアクセスできればOK
 
 ## Tips
 
